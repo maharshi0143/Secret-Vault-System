@@ -1,0 +1,7 @@
+services:
+  deployer:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8545:8545"
